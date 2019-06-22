@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { Button } from 'reactstrap';
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button color="danger">Danger!</Button>
+
         <a
           className="App-link"
           href="https://reactjs.org"
